@@ -1,135 +1,223 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Özge Ahras Portfolio</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
-    <link href="https://fonts.googleapis.com/css?family=Lora:400,700|Roboto+Slab:400,700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
-</head>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+      integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc="
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lora:400,700|Roboto+Slab:400,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
 
-<body>
+  <body>
     <header>
-        <div class="logo">
-            <img src="img/devozge.png" alt="">
-        </div>
-        <button class="nav-toggle" aria-label="toggle navigation">
-            <span class="hamburger"></span>
-        </button>
-        <nav class="nav">
-            <ul class="nav__list">
-                <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
-                <li class="nav__item"><a href="#services" class="nav__link">What I Do</a></li>
-                <li class="nav__item"><a href="#about" class="nav__link">About Me</a></li>
-                <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
-            </ul>
-        </nav>
+      <div class="logo">
+        <img src="img/devozge.png" alt="" />
+      </div>
+      <button class="nav-toggle" aria-label="toggle navigation">
+        <span class="hamburger"></span>
+      </button>
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+          <li class="nav__item">
+            <a href="#services" class="nav__link">What I Do</a>
+          </li>
+          <li class="nav__item">
+            <a href="#about" class="nav__link">About Me</a>
+          </li>
+          <li class="nav__item">
+            <a href="#work" class="nav__link">My Work</a>
+          </li>
+        </ul>
+      </nav>
     </header>
-
 
     <!-- introduction -->
     <section class="intro" id="home">
-        <h1 class="section__title section__title--intro">
-            Hi, I am <strong>Özge Ahras</strong>
-        </h1>
-        <p class="section__subtitle section__subtitle--intro">front end developer</p>
-        <img src="img/dev-ozge-01.jpeg" alt="photo of ozge ahras" class="intro__img">
+      <h1 class="section__title section__title--intro">
+        Hi, I am <strong>Özge Ahras</strong>
+      </h1>
+      <p class="section__subtitle section__subtitle--intro">
+        frontend developer
+      </p>
+      <img
+        src="img/dev-ozge-01.jpeg"
+        alt="photo of ozge ahras"
+        class="intro__img"
+      />
     </section>
 
     <!-- My services -->
     <section class="my-services" id="services">
-        <h2 class="section__title section__title--services">What I do</h2>
-        <div class="services">
-            <div class="service">
-                <h3>Development</h3>
-                <p>Just started to learn Front End development on <a class="service__link" href="https://scrimba.com/" target="_blank">SCRIMBA</a>. Trying to be Nodejs developer. But first I need to know basics of javascript, HTML, CSS of course. I will
-                    continue learning every day.</p>
-            </div>
-
-            <div class="service">
-                <h3>Current Work</h3>
-                <p>Currently I'm working at Yapi Kredi Technology as request management developer. What is request management? It is one of the ITSM Modules. Information Technology Service Management. So, there is third party tool that you can create a request.
-                    I'm administering front end and back end on this tool. I use javascript, nodejs, html, css, mssql, REST/SOAP api, powershell etc. </p>
-            </div>
-
+      <h2 class="section__title section__title--services">What I do</h2>
+      <div class="services">
+        <div class="service">
+          <h3>Development</h3>
+          <p>
+            <a class="service__link" href="https://scrimba.com/" target="_blank"
+              >SCRIMBA</a
+            >
+            Student. Learning ReactJS.
+          </p>
         </div>
 
-        <a href="#work" class="btn">My Work</a>
+        <div class="service">
+          <h3>Current Work</h3>
+          <p>
+            Currently I'm working at Yapi Kredi Technology as frontend
+            developer. Developing projects using Java, Nodejs, AngularJS, HTML,
+            CSS.
+          </p>
+        </div>
+      </div>
+
+      <a href="#work" class="btn">My Work</a>
     </section>
 
     <!-- About Me -->
     <section class="about-me" id="about">
-        <h2 class="section__title section__title--about">Who I am</h2>
-        <p class="section__subtitle section__subtitle--about">Front end developer based out of Istanbul</p>
-        <div class="about-me__body">
-            <p>Born in Antakya at 1990. Graduated from Mustafa Kemal University as Computer Engineer at 2008. Started to work at ODYA Technology as Request Management Developer. After 3.5 years I started to work at BTBilgi Technologies and work there 1 year.
-                Then started to work at YAPI KREDI Bank. Still working here. </p>
-            <p><strong>I  have been developing front end and node.js projects since earlier of 2020. Still learning from online platforms like <a class="service__link" href="https://scrimba.com/" target="_blank">scrimba</a>.</strong></p>
-        </div>
-        <img src="img/dev-ozge-02.jpeg" alt="about me picture" class="about-me__img">
+      <h2 class="section__title section__title--about">Who I am</h2>
+      <p class="section__subtitle section__subtitle--about">
+        Frontend developer based out of Istanbul
+      </p>
+      <div class="about-me__body">
+        <p>
+          Born in Antakya at 1990. Graduated from Mustafa Kemal University as
+          Computer Engineer at 2008. Started to work at ODYA Technology as
+          Request Management Developer. After 3.5 years I started to work at
+          BTBilgi Technologies and work there 1 year. Then started to work at
+          YAPI KREDI Bank. Still working here.
+        </p>
+        <p>
+          <strong
+            >I have been developing frontend and node.js projects since earlier
+            of 2020. Still learning from online platforms like
+            <a class="service__link" href="https://scrimba.com/" target="_blank"
+              >scrimba</a
+            >.</strong
+          >
+        </p>
+      </div>
+      <img
+        src="img/dev-ozge-02.jpeg"
+        alt="about me picture"
+        class="about-me__img"
+      />
     </section>
 
     <!-- My Work -->
     <section class="my-work" id="work">
-        <h2 class="section__title section__title--work">My work</h2>
-        <p class="section__subtitle section__subtitle--work">A selection of my range of work</p>
-        <div class="portfolio">
+      <h2 class="section__title section__title--work">My work</h2>
+      <p class="section__subtitle section__subtitle--work">
+        A selection of my range of work
+      </p>
+      <div class="portfolio">
+        <!-- airbnb clone -->
+        <a href="html/airbnb-clone.html" class="portfolio__item">
+          <img src="img/airbnb-clone.PNG" alt="" class="portfolio__img" />
+        </a>
 
-             <!-- airbnb clone -->
-             <a href="html/airbnb-clone.html" class="portfolio__item">
-                <img src="img/airbnb-clone.PNG" alt="" class="portfolio__img">
-            </a>
+        <!-- pacman game -->
+        <a href="html/pacman-game.html" class="portfolio__item">
+          <img src="img/pacman-game.PNG" alt="" class="portfolio__img" />
+        </a>
 
-            <!-- pacman game -->
-            <a href="html/pacman-game.html" class="portfolio__item">
-                <img src="img/pacman-game.PNG" alt="" class="portfolio__img">
-            </a>
+        <!-- my emojis app -->
+        <a href="html/my-emojis-app.html" class="portfolio__item">
+          <img
+            src="img/my-emojis-app-picture.jpg"
+            alt=""
+            class="portfolio__img"
+          />
+        </a>
 
-            <!-- my emojis app -->
-            <a href="html/my-emojis-app.html" class="portfolio__item">
-                <img src="img/my-emojis-app-picture.jpg" alt="" class="portfolio__img">
-            </a>
+        <!-- bbq page app -->
+        <a href="html/bbq-page-app.html" class="portfolio__item">
+          <img src="img/bbq-page.jpg" alt="" class="portfolio__img" />
+        </a>
 
-            <!-- bbq page app -->
-            <a href="html/bbq-page-app.html" class="portfolio__item">
-                <img src="img/bbq-page.jpg" alt="" class="portfolio__img">
-            </a>
+        <!-- slider app -->
+        <a href="html/slider-app.html" class="portfolio__item">
+          <img src="img/slider-app-img.PNG" alt="" class="portfolio__img" />
+        </a>
 
-            <!-- slider app -->
-            <a href="html/slider-app.html" class="portfolio__item">
-                <img src="img/slider-app-img.PNG" alt="" class="portfolio__img">
-            </a>
+        <!-- todo app -->
+        <a href="html/todo-app.html" class="portfolio__item">
+          <img src="img/todo-app-img.PNG" alt="" class="portfolio__img" />
+        </a>
 
-            <!-- todo app -->
-            <a href="html/todo-app.html" class="portfolio__item">
-                <img src="img/todo-app-img.PNG" alt="" class="portfolio__img">
-            </a>
+        <!-- business card -->
+        <a
+          href="html/business-card.html"
+          class="portfolio__item"
+          style="margin-top: auto; margin-bottom: auto"
+        >
+          <img src="img/business-card.PNG" alt="" class="portfolio__img" />
+        </a>
 
-            <!-- business card -->
-            <a href="html/business-card.html" class="portfolio__item" style="margin-top:auto; margin-bottom:auto;">
-                <img src="img/business-card.PNG"  alt="" class="portfolio__img">
-            </a>
-
-
-
-        </div>
+        <!-- business card -->
+        <a
+          href="html/unit-converter.html"
+          class="portfolio__item"
+          style="margin-top: auto; margin-bottom: auto"
+        >
+          <img src="img/unit-converter.png" alt="" class="portfolio__img" />
+        </a>
+      </div>
     </section>
 
     <footer class="footer">
-        <a href="mailto:ozgeahras@gmail.com">ozgeahras@gmail.com</a>
-        <ul class="social-list">
-            <li class="social-list__item"><a class="social-list__link" href="https://www.linkedin.com/in/ozgeahras/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
-            <li class="social-list__item"><a class="social-list__link" href="https://github.com/ozgeahras" target="_blank"><i class="fab fa-github"></i></a></li>
-            <li class="social-list__item"><a class="social-list__link" href="https://medium.com/@ozgeahras" target="_blank"><i class="fab fa-medium"></i></a></li>
-            <li class="social-list__item"><a class="social-list__link" href="https://dev.to/ahrasovic" target="_blank"><i class="fab fa-dev"></i></a></li>
-        </ul>
+      <a href="mailto:ozgeahras@gmail.com">ozgeahras@gmail.com</a>
+      <ul class="social-list">
+        <li class="social-list__item">
+          <a
+            class="social-list__link"
+            href="https://www.linkedin.com/in/ozgeahras/"
+            target="_blank"
+            ><i class="fab fa-linkedin"></i
+          ></a>
+        </li>
+        <li class="social-list__item">
+          <a
+            class="social-list__link"
+            href="https://github.com/ozgeahras"
+            target="_blank"
+            ><i class="fab fa-github"></i
+          ></a>
+        </li>
+        <li class="social-list__item">
+          <a
+            class="social-list__link"
+            href="https://medium.com/@ozgeahras"
+            target="_blank"
+            ><i class="fab fa-medium"></i
+          ></a>
+        </li>
+        <li class="social-list__item">
+          <a
+            class="social-list__link"
+            href="https://dev.to/ahrasovic"
+            target="_blank"
+            ><i class="fab fa-dev"></i
+          ></a>
+        </li>
+      </ul>
     </footer>
 
     <script src="index.js"></script>
-</body>
-
+  </body>
 </html>
